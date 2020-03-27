@@ -1,0 +1,445 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% File menu
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% i=0 
+File
+Fichier
+File
+Fichero
+% i=1
+Orbit and data (Tokovinin's format)
+Orbite et mesures (format de Tokovinin)
+Orbita e misure (formato di Tokovinin)
+Orbita y mesuras (formato de Tokovinin)
+Bahnung und data (Tokovinin format)
+%i=2
+Orbital elements, visual and radial velocity data
+Elements orbitaux, mesures visuelles et des vitesses radiales 
+Elementi orbitale, misure visuale e velocit&agrave; radiale
+% i=3
+Orbit and data (Carquillat's format)
+Orbite et mesures (format de Carquillat)
+Orbita e misure (formato di Carquillat)
+% i=4
+Orbital elements and radial velocity data"
+Elements orbitaux et mesures des vitesses radiales 
+% i=5
+Visual and RV data (Tokovinin's format)
+Mesures visuelles et vitesses radiales (format Tokovinin)
+% i=6
+Visual and radial velocity data
+Mesures visuelles et vitesses radiales
+% i=7
+RV data (CORAVEL fmt)
+Mesures de vitesses radiales (format CORAVEL)
+% i=8
+Radial velocity data
+Mesures de vitesses radiales
+Misuri della velocit&agrave; radiale
+Mesuras de velocidad radial
+Radialgeschwindigkeit
+% i=9
+Visual data (WDS fmt)
+Mesures visuelles (format WDS) 
+% i=10
+WDS format: epoch rho theta nights observer diameter [weight]
+Format WDS: &eacute;poque rho theta nuits observateur diam&egrave;tre [poids]
+% i=11
+Visual data (mini. format)
+Mesures visuelles (format mini.)
+% i=12
+Format: Epoch &rho; &theta; weight notes
+Format: &Eacute;poque &rho; &theta; poids notes
+% i=13
+Visual and RV orbit (Tokovinin's format)
+Orbite visuelle et spectro. (format de Tokovinin)
+Orbita visuale &egrave; espettro. (formato di Tokovinin)
+Orbita visuale y espectro. (formato de Tokovinin)
+% i=14
+Tokovinin's format
+Format de Tokovinin
+Formato di Tokovinin
+Formato de Tokovinin
+% i=15
+Visual orbit (Scardia's format)
+Orbite visuelle (format Scardia)
+% i=16
+Format: &Omega;_Node &omega;_peri i e T_peri P a equinox
+Format: &Omega;_Noeud &omega;_p&eacute;ri i e T_p&eacute;ri P a &Eacute;quinoxe
+% i=17
+Visual orbit (OC6)
+Orbite visuelle (OC6)
+% i=18
+OC6 format (WDS 6th Orbit Catalog)
+Format OC6 (WDS 6th Orbit Catalog)
+%%%%%%%%%%%%%
+%% Section name: 
+% i=19
+Load file
+Chargement fichier
+% i=20
+Load data and orbit
+Chargement mesures et orbite
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Save files:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% i=21
+Residuals
+R&eacute;sidus
+% i=22
+Output file in Tokovinin's format
+Fichier de sortie en format Tokovinin
+% i=23
+Orbit
+Orbite
+% i=24
+Output file in Tokovinin's format
+Fichier de sortie en format Tokovinin
+% i=25
+Data
+Mesures
+% i=26
+Output file in Tokovinin's format
+Fichier de sortie en format Tokovinin
+% i=27
+Orbit and data
+Orbite et mesures
+% i=28
+Output file in Tokovinin's format
+Fichier de sortie en format Tokovinin
+% i=29
+Save to file
+Sauvegarde dans un fichier
+% i=30
+Load data and orbit
+Chargement mesures et orbite
+% i=31
+Exit
+Sortie
+% i=32
+Quit program
+Sortie du programme
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Plot menu:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% i=40
+Idle
+Inactif
+% i=41
+Clear graphic panel
+Efface l'&eacute;cran graphique
+% i=42
+rho vs epoch
+rho fonction de l'&eacute;poque
+% i=43
+Plot &rho; vs epoch
+Dessine &rho; en fonction de l'&eacute;poque
+% i=44
+theta vs epoch
+theta fonction de l'&eacute;poque
+% i=45
+Plot &theta; vs epoch
+Dessine &theta; en fonction de l'&eacute;poque
+% i=46
+orbit on sky plane
+orbite dans le plan du ciel
+% i=47
+Plot orbit on sky plane
+Dessine l'orbite dans le plan du ciel
+% i=48
+rv vs epoch
+rv fonction de l'&eacute;poque
+% i=49
+Radial velocity vs epoch
+Vitesse radiale en fonction de l'&eacute;poque
+% i=50
+rv vs phase
+rv fonction de la phase
+% i=51
+Radial velocity vs phase
+Vitesse radiale fonction de la phase
+% i=52
+(O-C)rho residuals vs epoch
+R&eacute;sidus &rho;(O-C) fonction de l'&eacute;poque
+% i=53
+(O-C)rho residuals vs epoch
+R&eacute;sidus &rho;(O-C) en fonction de l'&eacute;poque
+% i=54
+(O-C)theta residuals vs epoch
+R&eacute;sidus &theta;(O-C) fonction de l'&eacute;poque
+% i=55
+(O-C)theta residuals vs epoch
+R&eacute;sidus &theta;(O-C) en fonction de l'&eacute;poque
+% i=56
+(O-C)rv residuals vs epoch
+R&eacute;sidus rv(O-C) fonction de l'&eacute;poque
+% i=57
+(O-C)radial velocity residuals vs epoch
+R&eacute;sidus de vitesse radiale (O-C) en fonction de l'&eacute;poque
+% i=58
+Plot
+Graphique
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%  Logbook menu
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% i=100
+Show logbook window
+Montre le carnet de bord
+% i=101
+Display the logbook window
+Affiche la fen&ecirc;tre du carnet de bord
+% i=102
+Hide logbook window
+Cache le carnet de bord
+% i=103
+Hide the logbook window
+Cache la fen&ecirc;tre du carnet de bord
+% i=104
+Clear the logbook
+Efface le carnet de bord
+% i=105
+Clear the logbook content
+Efface le contenu du carnet de bord
+% i=106
+Clean the logbook
+Nettoie le carnet de bord
+% i=107
+Clean the logbook from unuseful content
+Nettoie le contenu du carnet de bord 
+% i=108
+Save (cleaned) logbook
+Sauve le carnet de bord (nettoy&eacute;)
+% i=109
+Save a selection from the logbook content
+Sauve une s&eacute;lection du carnet de bord
+% i=110
+Logbook
+Carnet de bord
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%  Help menu
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% i=200
+Help
+Aide
+% i=201
+How to use this program
+Aide pour utiliser ce programme
+% i=202
+Context help...
+Aide du contexte
+% i=203
+Get context help for a widget/control
+Affiche une aide du contexte d'un bouton/&eacute;l&eacute;ment
+% i=204
+About...
+A propos...
+% i=205
+About this program...
+A propos de ce programme...
+% i=206
+Help
+Aide
+%%%%%%%%%%%% Help %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% i=207
+Sorry: \"Help\" is not implemented yet
+D&eacute;sol&eacute;: \"Aide\" non encore disponible
+% i=208
+Current version: July 2015
+Version actuelle: Juillet 2015
+%%%%%%%%%%%% About %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% i=209
+Created with wxWidgets
+Cr&eacute;&eacute; avec wxWidgets
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% Text Panel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% i=219
+Text Panel
+Panneau-texte
+Pannello-testo
+% i=220
+Original data file
+Fichier originel des mesures
+File originale dei misuri
+% i=221
+Original orbit file
+Fichier originel de l'orbite
+File originale dell'orbita
+% i=222
+Data
+Mesures
+Misuri
+Mesuras
+% i=223
+Orbit
+Orbite
+Orbita
+Orbita
+% i=224
+Orbit and data
+Orbite et mesures
+Orbita i misuri
+Orbita y mesuras
+% i=225
+Residuals
+R&eacute;sidus
+Residuali
+Residuales
+% i=226
+Cancel text changes
+Annulation des changements du texte
+Cancela i cambi del testo
+Annula los cambios del texto
+% i=227
+Valid text changes
+Validation des changements du texte
+Valida i cambi del testo
+Valida los cambios del texto
+% i=228
+Save to file
+Sauvegarde dans un fichier
+Salva in file
+Salva en un fichero
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% Graphic Panel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% i=230
+Graphic Panel
+Panneau graphique
+Pannello grafico
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%% Widget Panel %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% i=250
+Widget Panel
+Tableau de bord
+Tabellone di controlo
+% i=251
+period  (years) :
+p&eacute;riode (ans) :
+perioda (anni) :
+perioda (a&ntilde;os) :
+% i=252
+T_peri  (years) :
+T_p&eacute;ri  (ans) :
+T_peri  (anni) :
+T_peri (a&ntilde;os) :
+% i=253
+period  (days) :
+p&eacute;riode (jours) :
+perioda (giorni) :
+perioda (d&iacute;as) :
+% i=254
+T_peri  (JD) :
+T_p&eacute;ri  (jours Jul.) :
+T_peri  (giorni Jul.) :
+% i=255
+eccentricity :
+eccentricit&eacute; :
+ecentricit&agrave; :
+eccentricitad :
+% i=256
+a  (arcsec)  :
+a (sec. d'arc) :
+a (sec. d'arco) :
+% i=257
+  Name
+  Nom
+ Nomme
+% i=258
+   Value
+  Valeur
+  Valore
+% i=259
+Fixed
+Fix&eacute; 
+% i=260
+Error
+Erreur
+Errore
+% i=261
+Orbital elements
+El&eacute;ments orbitaux
+Elementi orbitali
+% i=262
+Valid changes
+Valider les changements
+% i=263
+Cancel changes
+Annuler les changements
+% i=264
+nber of visual meas. (nmeas1):
+nbre de mesures visuelles:
+numero di misure visuali:
+% i=265
+nber of primary rv meas. (nrv1) :
+nbre de mesures VR prim. (nrv1):
+% i=266
+nber of secondary rv meas. (nrv2) :
+nbre de mesures VR second. (nrv2):
+% i=267
+theta corrected for precession :
+theta corrig&eacute; de la pr&eacute;cession :
+% i=268
+mean rho residual :
+moyenne r&eacute;sidus rho: 
+% i=269
+mean sigma rho residual :
+sigma r&eacute;sidus rho: 
+% i=270
+(arcsec)
+(sec. d'arc)
+% i=271
+mean theta residual :
+moyenne r&eacute;sidus theta: 
+% i=272
+mean sigma theta residual :
+sigma r&eacute;sidus theta: 
+% i=273
+mean sigma rv1 residual :
+sigma r&eacute;sidus VR1: 
+% i=274
+mean sigma rv2 residual :
+sigma r&eacute;sidus VR2: 
+% i=275
+yes
+oui
+si
+s&iacute;
+ya
+% i=276
+no
+non
+no
+no
+nein
+% i=277
+Parallax :
+Parallaxe :
+% i=278
+Semi major axis :
+Demi grand-axe :
+% i=279
+Total mass :
+Masse totale :
+% i=280
+Data fit
+Ajustement aux mesures
+% i=281
+New orbit computation
+Calcul nouvelle orbite
+% i=282
+Orbital elements
+El&eacute;ments orbitaux
+Elementi orbitali
+Elementos orbitales
+% i=283
+Orbital elements of
+El&eacute;ments orbitaux de
+Elementi orbitali di
+Elementos orbitales de
+% i=284
+(equinox
+(&eacute;quinoxe
+(equinoce
+(equinoxio

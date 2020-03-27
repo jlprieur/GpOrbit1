@@ -1,0 +1,61 @@
+3. Data format
+--------------
+
+The data  format is  same as  in the old  program ORBITX  which worked
+under DOS.  The  first line contains the object  name (arbitrary), the
+next 2  lines contain  RA and  DEC in the  hh.mmss and  dd.mmss format
+(used only for precession correction in angle).
+
+The following 10  lines list orbital elements as  (tag, value) on each
+line. The  tags are used to  recognize the elements and  should not be
+modified.   For irrelevant  elements (such  as K1,  K2, V0  for visual
+orbits)  and/or   fixed  elements,  the  tags  are   preceded  with  *
+(asterisk).  Missing elements receive zero values.
+
+Object: Name of the object
+R.A.:   Right ascension in the form HH.MMSS, e.g. 19.2348 for 19h 23m 48s
+Dec.:   Declination, DD.MMSS. Coordinates are used for the precession corr.
+P:      Initial value of the orbital period in years or days
+
+T:  Epoch of passage  through periastron  in years  or in  Julian Days
+        minus 2400000, e.g. 46789.378. If  it is greated that 3000, it
+        is assumed that the epoch  and period are days, otherwise they
+        are assumed to be in years.
+e:      Eccentricity
+a:      Semi-major axis in arcseconds (irrelevant for SBs)
+W:      Position angle of the line of nodes in degrees (irrelevant for SBs)
+w:      Longitude of the periastron in degrees. According to the conventions
+        for VBs, it is counted from the ascending node of the SECONDARY
+        whereas for SBs it is counted from the ascending node of the PRIMARY.
+        In combined spectroscopic/visual orbits, the spectroscopic
+        convention is be adopted.
+i:      Inclination of the orbit in degrees (irrelevant for SBs)
+K1:     Semi-amplitude of the velocity of the primary in km/s
+K2:     Semi-amplitude of the secondary in km/s, irrelevant for SB1s
+V0:     Velocity of the center of mass in km/s.
+
+Symbol  'C' in  the first character of a line means  comment,  all such
+lines are ignored.
+
+The positional data are in the form (time, theta, rho, error, ..., I1,
+...) where ...  means possible extra columns. The tag  'I1' is used to
+recognize positional measurements. Other numbers or text can be placed
+in (...), provided that the text does not contain 'I1',
+
+The  radial velocity  data  can be  in  two forms:
+
+- (time, RV, error,  ...  Va, ...)  where Va  marks the primary component, Vb
+marks the secondary. Lines with the V: tag are ignored.
+
+- (time, RV1, err1, RV2, Err2, ... V2, ...) for SB2 (both velocities).
+
+It is possible  to mix time in years and in  Julian days (with 2400000
+always subtracted) in the same file. The unit of time (JD or years) is
+defined by the value of the T0 element: JD if T0>3000.
+
+The observational errors are used  to calculate weight.  A fixed error
+of  0.3km/s is added  to the  RV errors  in quadrature  (hard-coded in
+fitorb,  V0err  can be  changed).   Set  large  errors to  effectively
+eliminate poor data from the fit.
+
+
